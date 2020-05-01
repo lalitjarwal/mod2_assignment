@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+}
+
+.largecontainer{
+    width: auto;
+    text-align: center;
+    
+}
+.container{
+    width:400px;
+    height: auto;
+    border:solid;
+    border-color: black;
+    display: inline-block;
+    background-color: dimgrey;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: justify;
+    float: none;
+    
+    
+}
+
+.container> p{
+    float: right;
+    margin: 10px;
+}
+.title{
+    width: 100px;
+    height: auto;
+    float: right;
+    border-left:solid;
+    border-bottom: solid;
+    border-color: black; 
+    text-align: center;
+}
+#chicken{
+    background-color: pink;
+}
+#beaf{
+    background-color: maroon;
+}
+#sushi{
+    background-color:lightgoldenrodyellow;
+}
+
+@media screen and (min-width=992px){
+    
+}
+@media (min-width:768px )and (max-width:991px){
+    #c1{
+        float: left;
+    }
+    #c2{
+        float: right;
+    }
+    #c3{
+        width:700px;
+    }
+}
+@media (max-width=767px){
+    .container{
+        display:block;
+    }
+}
